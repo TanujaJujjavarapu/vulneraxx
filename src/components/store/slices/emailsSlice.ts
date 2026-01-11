@@ -8,6 +8,7 @@ export interface EmailThread {
   date: string
   isRead: boolean
   hasAttachment: boolean
+  riskLevel?: 'high' | 'medium' | 'low'
 }
 
 interface EmailsState {

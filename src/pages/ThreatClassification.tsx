@@ -53,6 +53,7 @@ interface EmailThread {
   date: string;
   isRead: boolean;
   hasAttachment: boolean;
+  riskLevel?: "high" | "medium" | "low";
 }
 
 interface StatCardProps {
@@ -747,19 +748,44 @@ export default function ThreatClassification(): JSX.Element {
                     <Table>
                       <TableHead>
                         <TableRow>
-                          <TableCell sx={{ color: "rgba(255,255,255,0.7)", fontWeight: 600 }}>
+                          <TableCell
+                            sx={{
+                              color: "rgba(255,255,255,0.7)",
+                              fontWeight: 600,
+                            }}
+                          >
                             Risk Level
                           </TableCell>
-                          <TableCell sx={{ color: "rgba(255,255,255,0.7)", fontWeight: 600 }}>
+                          <TableCell
+                            sx={{
+                              color: "rgba(255,255,255,0.7)",
+                              fontWeight: 600,
+                            }}
+                          >
                             Subject
                           </TableCell>
-                          <TableCell sx={{ color: "rgba(255,255,255,0.7)", fontWeight: 600 }}>
+                          <TableCell
+                            sx={{
+                              color: "rgba(255,255,255,0.7)",
+                              fontWeight: 600,
+                            }}
+                          >
                             From
                           </TableCell>
-                          <TableCell sx={{ color: "rgba(255,255,255,0.7)", fontWeight: 600 }}>
+                          <TableCell
+                            sx={{
+                              color: "rgba(255,255,255,0.7)",
+                              fontWeight: 600,
+                            }}
+                          >
                             Date
                           </TableCell>
-                          <TableCell sx={{ color: "rgba(255,255,255,0.7)", fontWeight: 600 }}>
+                          <TableCell
+                            sx={{
+                              color: "rgba(255,255,255,0.7)",
+                              fontWeight: 600,
+                            }}
+                          >
                             Attachment
                           </TableCell>
                         </TableRow>
