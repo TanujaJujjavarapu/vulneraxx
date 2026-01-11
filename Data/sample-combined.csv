@@ -1,0 +1,11 @@
+domain_name,domain_url,environment,risk_score,files_analyzed,vuln_id,vuln_title,category,severity,cvss,status,date_found,sla_due
+example1.com,https://example1.com,production,7.2,120,VUL-001,SQL Injection in Login Form,injection,critical,9.8,open,12/15/2024,1/5/2025
+example1.com,https://example1.com,production,7.2,120,VUL-002,Cross-Site Scripting (XSS),xss,high,7.4,open,12/18/2024,1/8/2025
+example1.com,https://example1.com,production,7.2,120,VUL-005,Sensitive Data Exposure,sensitive_data,high,8.2,open,12/22/2024,1/12/2025
+staging1.local,https://staging.local,staging,4.3,45,VUL-003,Broken Access Control,broken_access,critical,9.1,open,12/10/2024,1/1/2025
+staging1.local,https://staging.local,staging,4.3,45,VUL-007,XML External Entities (XXE),injection,high,7.9,open,12/17/2024,1/7/2025
+api1.example.com,https://api.example.com,production,8.5,230,VUL-004,Insecure Direct Object References,broken_access,medium,6.5,fixed,12/20/2024,1/10/2025
+api1.example.com,https://api.example.com,production,8.5,230,VUL-008,Broken Authentication,authentication,critical,9.3,open,12/12/2024,1/2/2025
+dev1.example.com,https://dev.example.com,development,3.1,67,VUL-006,Security Misconfiguration,misconfiguration,medium,5.3,in_progress,12/25/2024,1/15/2025
+dev1.example.com,https://dev.example.com,development,3.1,67,VUL-010,Insufficient Logging & Monitoring,logging,low,4.2,open,12/23/2024,1/13/2025
+test1.example.com,https://test.example.com,testing,5.6,98,VUL-009,Using Components with Known Vulnerabilities,known_vulns,medium,6.8,resolved,12/19/2024,1/9/2025

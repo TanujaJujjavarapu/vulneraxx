@@ -1,0 +1,11 @@
+domain_id,name,domain_url,environment,risk_score,files_analyzed,date_found
+d1,example1.com,https://example.com,production,7.2,120,12/15/2024
+d1,example2.com,https://example.com,production,7.2,120,12/18/2024
+d1,example3.com,https://example.com,production,7.2,120,12/22/2024
+d2,staging1.local,https://staging.local,staging,4.3,45,12/10/2024
+d2,staging2.local,https://staging.local,staging,4.3,45,12/17/2024
+d3,api1.example.com,https://api.example.com,production,8.5,230,12/20/2024
+d3,api2.example.com,https://api.example.com,production,8.5,230,12/12/2024
+d4,dev1.example.com,https://dev.example.com,development,3.1,67,12/25/2024
+d4,dev2.example.com,https://dev.example.com,development,3.1,67,12/23/2024
+d5,test1.example.com,https://test.example.com,testing,5.6,98,12/19/2024
